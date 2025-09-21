@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     target: 'esnext',
-    outDir: 'dist',
+    outDir: '.vercel/output/static',
     sourcemap: true,
     rollupOptions: {
       input: {
